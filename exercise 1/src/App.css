@@ -1,0 +1,66 @@
+#flex-container {
+  height: 70vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  border: solid thin yellow;
+}
+
+.banner {
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom-left-radius: 10%;
+  padding: 5px 15px 5px;
+  width: 50%;
+
+}
+
+.formComponent {
+  width: 50%;
+}
+
+.form-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 10px 5px;
+}
+
+.form-header h1 {
+  font-size: 18px;
+}
+
+.form label {
+  display: block;
+}
+
+.inline-fieldset {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  
+}
+
+.block-fieldset {
+  display: inline;
+}
+
+.block-fieldset fieldset label {
+  display: inline;
+}
+
+.block-fieldset fieldset {
+  padding: 0;
+} 
+
+.bordered {
+  border: solid thin grey;
+}
+
+.submitbtn {
+  border: solid thin blueviolet;
+  border-radius: 15px;
+  background-color: yellow;
+}
